@@ -2,10 +2,10 @@ import _ from 'lodash';
 import './style.css';
 
 
-var dropdownBtn = document.querySelector('.dropbtn');
+const dropdownBtn = document.querySelector('.dropbtn');
 
   
-  var dropdownContent = document.querySelector('.dropdown-content');
+  const dropdownContent = document.querySelector('.dropdown-content');
 
   
   dropdownBtn.addEventListener('click', function() {
